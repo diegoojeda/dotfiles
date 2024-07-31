@@ -1,0 +1,15 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+
+    ~/.bashrc: .bashrc
+    ~/.zshrc: .zshrc
+    ~/.aliases: .aliases
+    ~/.config/alacritty/alacritty.toml: .alacritty.toml
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]

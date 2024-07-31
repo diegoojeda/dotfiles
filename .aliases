@@ -1,0 +1,6 @@
+alias vpn0="nmcli connection down estibarna"
+alias vpn1="nmcli connection up estibarna"
+alias gp="git push"
+alias gst="git status"
+alias pbcopy="xclip -selection clipboard"
+alias pbpaste="xclip -selection clipboard -o"
