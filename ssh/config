@@ -1,0 +1,11 @@
+Host moebius
+  HostName moebius.estibarna.lan
+  User devops
+  IdentityFile ~/.ssh/moebius
+  IdentitiesOnly yes
+
+Host hawkeye
+  HostName hawkeye.estibarna.lan
+  User devops
+  IdentityFile ~/.ssh/hawkeye
+  IdentitiesOnly yes
