@@ -1,11 +1,25 @@
 Host moebius
   HostName moebius.estibarna.lan
   User devops
-  IdentityFile ~/.ssh/moebius
+  IdentityFile ~/.ssh/moebius.pub
   IdentitiesOnly yes
 
 Host hawkeye
   HostName hawkeye.estibarna.lan
   User devops
-  IdentityFile ~/.ssh/hawkeye
+  IdentityFile ~/.ssh/hawkeye.pub
   IdentitiesOnly yes
+
+Host github.com
+  Hostname github.com
+  User git
+  IdentityFile ~/.ssh/github.pub
+  IdentitiesOnly yes
+
+Host gitlab.devops.estibarna.es
+  Hostname gitlab.devops.estibarna.es
+  User git
+  IdentityFile ~/.ssh/gitlab-estibarna.pub
+  IdentitiesOnly yes
+  
+AddKeysToAgent  yes

@@ -1,0 +1,3 @@
+alias vpn0="nmcli con down Estibarna"
+alias vpn1="nmcli con up Estibarna"
+alias pbcopy="xclip -selection clipboard"

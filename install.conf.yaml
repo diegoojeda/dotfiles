@@ -12,5 +12,12 @@
     ~/.zshrc: zshrc
     ~/.xinitrc: xinitrc
     ~/.tmux.conf: tmux.conf
+    ~/.config/systemd/ssh-agent.service: ssh-agent.service
+    ~/.alias: alias
 
-
+- shell:
+  -
+    command: cp ssh/*.pub ~/.ssh/
+    stdin: true
+    stdout: true
+    description: Copy public keys to .ssh/
