@@ -11,5 +11,6 @@
         create: true
     ~/.zshrc: zshrc
     ~/.xinitrc: xinitrc
+    ~/.tmux.conf: tmux.conf
 
 
