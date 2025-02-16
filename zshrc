@@ -4,6 +4,12 @@ fi
 
 source .alias
 
+#export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+
+#if ! pgrep -u "$USER" ssh-agent > /dev/null; then
+#    eval "$(ssh-agent -s)"
+#fi
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
@@ -79,7 +85,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(ssh-agent git)
 
 source $ZSH/oh-my-zsh.sh
 

@@ -2,6 +2,7 @@
 
 - link:
     ~/.profile: profile
+    ~/.xprofile: profile
     ~/.bash_profile: bash_profile
     ~/.bashrc: bashrc
     ~/.bash_logout: bash_logout
@@ -12,7 +13,8 @@
     ~/.zshrc: zshrc
     ~/.xinitrc: xinitrc
     ~/.tmux.conf: tmux.conf
-    ~/.config/systemd/ssh-agent.service: ssh-agent.service
+    #/etc/systemd/system/ssh-agent.service: ssh-agent.service
+    ~/.config/systemd/user/ssh-agent.service: ssh-agent.service
     ~/.alias: alias
 
 - shell:
