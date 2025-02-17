@@ -21,5 +21,4 @@ Host gitlab.devops.estibarna.es
   User git
   IdentityFile ~/.ssh/gitlab-estibarna.pub
   IdentitiesOnly yes
-  
-AddKeysToAgent  yes
+
