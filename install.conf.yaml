@@ -12,5 +12,6 @@
     ~/.xinitrc: xinitrc
     ~/.tmux.conf: tmux.conf
     ~/.config/systemd/user/ssh-agent.service: ssh-agent.service
+        create: true
     ~/.alias: alias
     ~/.config/systemd:
