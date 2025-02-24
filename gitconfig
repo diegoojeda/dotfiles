@@ -6,3 +6,5 @@
 [user]
 	name = Diego Ojeda
 	email = diego.ojeda@apiumhub.com
+[core]
+	autocrlf = input

@@ -18,6 +18,7 @@ export ZSH="$HOME/.oh-my-zsh"
 export PATH="$PATH:$HOME/.dotnet/tools/"
 export PATH="$PATH:$LD_LIBRARY_PATH"
 export DOTNET_ROOT="$HOME/.dotnet/"
+export LD_LIBRARY_PATH="$HOME/Projects/Estibarna/estibarna-backend/data/bin/Debug/net9.0/clidriver/lib"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
