@@ -19,6 +19,7 @@ export PATH="$PATH:$HOME/.dotnet/tools/"
 export PATH="$PATH:$LD_LIBRARY_PATH"
 export DOTNET_ROOT="$HOME/.dotnet/"
 export LD_LIBRARY_PATH="$HOME/Projects/Estibarna/estibarna-backend/data/bin/Debug/net9.0/clidriver/lib"
+export KITTY_RC_PASSWORD=pikachu
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,

@@ -15,6 +15,7 @@
         path: ssh-agent.service
         create: true
     ~/.alias: alias
+    ~/.config/kitty/kitty.conf: kitty.conf
 
 - shell:
     - systemctl --user enable ssh-agent
